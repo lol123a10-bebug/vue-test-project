@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="d-flex align-center justify-center home__container">
     <v-card class="home__card">
-      <v-form ref="form" lazy-validation @submit.prevent="handleSubmit">
+      <v-form ref="form" autocomplete="off" lazy-validation @submit.prevent="handleSubmit">
         <v-text-field
           :error-messages="emailErrors"
           label="Email"
