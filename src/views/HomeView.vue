@@ -96,6 +96,7 @@ export default Vue.extend({
 
   &__card {
     width: 100%;
+    max-width: 30rem;
     padding: 1rem 0.5rem;
   }
 }
