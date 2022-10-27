@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col v-for="product in products" :key="product.id" cols="12" md="4">
+      <v-col v-for="product in products" :key="product.id" cols="12" md="4" sm="6">
         <v-card height="100%">
           <v-img height="20rem" :src="product.images[0]" />
           <v-card-title>{{ product.title }}</v-card-title>
